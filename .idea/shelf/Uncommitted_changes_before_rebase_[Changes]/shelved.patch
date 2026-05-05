@@ -1,0 +1,27 @@
+Index: .env
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.env b/.env
+new file mode 100644
+--- /dev/null	(date 1776783663300)
++++ b/.env	(date 1776783663300)
+@@ -0,0 +1,16 @@
++# =========================
++# ADZUNA API CONFIG
++# =========================
++ADZUNA_APP_ID=baee0cc0
++ADZUNA_API_KEY=650f0bf38231593a521e7f15d8da728a
++
++
++# =========================
++# SNOWFLAKE CONFIG
++# =========================
++SNOWFLAKE_USER=maissa995
++SNOWFLAKE_PASSWORD=5zGxVj5dczWNK4x
++SNOWFLAKE_ACCOUNT=bvc94391.us-east-1
++SNOWFLAKE_WAREHOUSE=COMPUTE_WH
++SNOWFLAKE_DATABASE=JOB_PIPELINE_DB
++SNOWFLAKE_SCHEMA=PUBLIC
+\ No newline at end of file
