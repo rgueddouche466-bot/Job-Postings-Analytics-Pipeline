@@ -1,0 +1,16 @@
+
+# Environment variables — never push credentials
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Mac
+.DS_Store

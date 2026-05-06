@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# dbt artifacts
+job_pipeline_dbt/target/
+job_pipeline_dbt/dbt_packages/
+job_pipeline_dbt/logs/
+
+# Environment variables — never push credentials
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store

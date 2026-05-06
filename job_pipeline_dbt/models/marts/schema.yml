@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: jobs_skill_match
+    description: "Job postings scored against Roumaissa's skill set"
+    columns:
+      - name: job_id
+        tests:
+          - not_null
+          - unique
+      - name: match_score_pct
+        tests:
+          - not_null
+      - name: match_label
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Strong Match', 'Good Match', 'Partial Match', 'Weak Match']
+
+  - name: jobs_by_seniority
+    description: "Job postings classified by seniority level"
+    columns:
+      - name: job_id
+        tests:
+          - not_null
+      - name: seniority_level
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Principal / Staff', 'Lead', 'Senior', 'Mid Level', 'Junior']

@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "id": "job_1",
+      "title": "Software Engineer",
+      "company": { "display_name": "Google" },
+      "location": { "display_name": "New York, NY" },
+      "salary_min": 100000,
+      "salary_max": 150000,
+      "created": "2026-04-01T12:00:00Z"
+    },
+    {
+      "id": "job_2",
+      "title": "Backend Developer",
+      "company": { "display_name": "Amazon" },
+      "location": { "display_name": "Seattle, WA" },
+      "salary_min": 120000,
+      "salary_max": 170000,
+      "created": "2026-04-02T10:30:00Z"
+    }
+  ]
+}
