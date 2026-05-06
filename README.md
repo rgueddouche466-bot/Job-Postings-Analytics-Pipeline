@@ -1,6 +1,6 @@
 # Job Postings Analytics Pipeline
 
-End-to-end data pipeline that pulls live job postings from the Adzuna API, loads into Snowflake, transforms with dbt, and visualizes in Looker Studio.
+End-to-end data pipeline that pulls live job postings from the Adzuna API, loads into Snowflake, transforms with dbt, and visualizes in Looker Studio/PBI.
 
 ## Architecture
 
