@@ -44,3 +44,11 @@ cd job_pipeline_dbt && dbt run && dbt test
 ADZUNA_APP_ID, ADZUNA_API_KEY
 SNOWFLAKE_USER, SNOWFLAKE_PASSWORD, SNOWFLAKE_ACCOUNT
 SNOWFLAKE_DATABASE, SNOWFLAKE_WAREHOUSE, SNOWFLAKE_SCHEMA
+
+## Dashboard
+
+**Job Match Dashboard** — jobs ranked by skill match score
+![match skills.png](match%20skills.png)
+
+**Market Intelligence** — jobs by city and skills in demand
+![market by skill and city .png](market%20by%20skill%20and%20city%20.png)
